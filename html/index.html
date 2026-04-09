@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cashier Application</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <main class="app">
+    <section class="login-panel" aria-labelledby="login-title">
+      <form class="login-form">
+        <h1 id="login-title">CASHIER APPLICATION</h1>
+
+        <div class="field-group">
+          <label for="username">USERNAME</label>
+          <input id="username" name="username" type="text" placeholder="Username . . ." autocomplete="username">
+        </div>
+
+        <div class="field-group">
+          <label for="password">PASSWORD</label>
+          <input id="password" name="password" type="password" placeholder="Password . . ." autocomplete="current-password">
+        </div>
+
+        <button class="login-button" type="submit">LOGIN</button>
+        <p class="status-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
