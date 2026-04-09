@@ -118,6 +118,14 @@ button {
   box-shadow: var(--pill-shadow);
 }
 
+.nav-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .nav-link svg,
 .stat-icon svg,
 .pager-button svg {

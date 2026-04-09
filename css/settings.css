@@ -116,6 +116,14 @@ button {
   box-shadow: var(--pill-shadow);
 }
 
+.nav-icon {
+  width: 18px;
+  height: 18px;
+  display: block;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
 .nav-link span,
 .logout-link span {
   font-size: 0.98rem;

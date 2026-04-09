@@ -12,7 +12,7 @@ form?.addEventListener("submit", (event) => {
     return;
   }
 
-  statusMessage.textContent = "Login successful. Redirecting...";
+  statusMessage.textContent = "Login successful";
   window.setTimeout(() => {
     window.location.href = "dashboard.html";
   }, 400);
